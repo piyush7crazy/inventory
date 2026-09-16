@@ -26,6 +26,7 @@ SECRET_KEY = 'django-insecure-z512%5&8!s21e^6*o8su4v*o5t)7h^*h5_7y!vvs%*!lut!-@_
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+CSRF_TRUSTED_ORIGINS = ['https://inventory-1crd.onrender.com']
 
 
 # Application definition
